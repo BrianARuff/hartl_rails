@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="82891e0b-3458-4e7d-a8e8-ad615104c31e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +40,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -55,7 +57,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,11 +187,12 @@
       <updated>1546316631984</updated>
       <workItem from="1546316633104" duration="1322000" />
       <workItem from="1546325937558" duration="87000" />
+      <workItem from="1546326128469" duration="242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1409000" />
+    <option name="totallyTimeSpent" value="1651000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -202,10 +204,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1370" extended-state="6" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49708286" visible="true" weight="0.25178713" />
-      <window_info id="Structure" order="1" sideWeight="0.5029172" side_tool="true" visible="true" weight="0.25178713" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49627262" visible="true" weight="0.25377283" />
+      <window_info id="Structure" order="1" sideWeight="0.5037274" side_tool="true" visible="true" weight="0.25377283" />
       <window_info id="Favorites" order="2" sideWeight="0.5007924" side_tool="true" weight="0.24980143" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -217,7 +219,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" side_tool="true" visible="true" weight="0.32942098" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" side_tool="true" visible="true" weight="0.30649927" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
