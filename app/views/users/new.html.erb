@@ -6,28 +6,30 @@
   <div class="col-md-6 col-md-offset-3">
     <%= form_for(@user) do |f| %>
 
+      <%= render 'shared/error_messages' %>
+
       <div class="form-group">
         <%= f.label :name %>
-        <%= f.text_field :name %>
+        <%= f.text_field :name, class: 'form-control' %>
       </div>
 
       <div class="form-group">
         <%= f.label(:email) %>
-        <%= f.email_field :email %>
+        <%= f.email_field :email, class: 'form-control' %>
       </div>
 
       <div class="form-group">
         <%= f.label :password %>
-        <%= f.password_field :password, id: "psw-field" %>
-        <%= f.label :password, "Show/Hide Password Text" %>
+        <%= f.password_field :password, id: "psw-field", class: 'form-control' %>
+        <%= f.label :password, "Show/Hide Password" %>
         <%= f.check_box :password, id: "toggle-psw" %>
       </div>
 
       <div class="form-group">
         <%= f.label :password_confirm %>
         <%= f.password_field :password_confirm, id:
-            "psw-field2" %>
-        <%= f.label :password, "Show/Hide Password Text" %>
+            "psw-field2", class: 'form-control' %>
+        <%= f.label :password, "Show/Hide Password Confirm" %>
         <%= f.check_box :password, id: "toggle-psw2" %>
       </div>
 
