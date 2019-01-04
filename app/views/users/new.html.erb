@@ -1,3 +1,62 @@
 <%= provide(:title, "New Users") %>
-<h1>Users</h1>
-<p>This will be a signup page for new users.</p>
+
+<h1>Sign Up</h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for(@user) do |f| %>
+
+      <div class="form-group">
+        <%= f.label :name %>
+        <%= f.text_field :name %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label(:email) %>
+        <%= f.email_field :email %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :password %>
+        <%= f.password_field :password, id: "psw-field" %>
+        <%= f.label :password, "Show/Hide Password Text" %>
+        <%= f.check_box :password, id: "toggle-psw" %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :password_confirm %>
+        <%= f.password_field :password_confirm, id:
+            "psw-field2" %>
+        <%= f.label :password, "Show/Hide Password Text" %>
+        <%= f.check_box :password, id: "toggle-psw2" %>
+      </div>
+
+      <div class="form-group">
+        <%= f.submit "Create My Account", class: "btn btn-primary", style:
+            "font-weight: bold" %>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+  let toggle_state = false;
+  let toggle_state2 = false;
+  document.querySelector("#toggle-psw").addEventListener('click', () => {
+      if(!toggle_state) {
+          document.querySelector("#psw-field").type = "text"
+      } else {
+          document.querySelector("#psw-field").type = "password"
+      }
+      toggle_state = !toggle_state;
+  });
+
+  document.querySelector("#toggle-psw2").addEventListener('click', () => {
+      if(!toggle_state2) {
+          document.querySelector("#psw-field2").type = "text"
+      } else {
+          document.querySelector("#psw-field2").type = "password"
+      }
+      toggle_state2 = !toggle_state2;
+  })
+</script>

@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   get "contact", to: 'static_pages#contact'
   get "helf", to: "static_pages#help"
 
+  resources(:users)
+
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

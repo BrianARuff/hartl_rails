@@ -21,3 +21,10 @@
 
 en:
   hello: "Hello world"
+  helpers:
+    label:
+      user:
+        name: "Your Name"
+        email: "Your Email"
+        password: "Your password"
+        password_confirm: "Confirm your password"
