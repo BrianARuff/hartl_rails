@@ -13,8 +13,8 @@
     <%= render 'layouts/header' %>
     <div class="container">
       <% flash.each do |alert_type, alert_msg| %>
-        <div class="alert alert-<%= alert_type %>">
-          <%= alert_msg %>
+        <div class="alert alert-<%= alert_type %> center font-weight-bold">
+          <strong><%= alert_msg %></strong>
         </div>
       <% end %>
       <%= yield %>

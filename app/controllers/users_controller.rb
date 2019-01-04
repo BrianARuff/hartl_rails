@@ -13,6 +13,8 @@ class UsersController < ApplicationController
       flash[:success] = "Welcome aboard, thank you for signing up!"
       redirect_to user_url(@user)
     else
+      flash[:danger] = "Sorry, but an error has occurred. Please check the
+error messages below and fix your form accordingly :-)"
       render new_user_path
     end
   end
