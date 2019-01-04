@@ -1,0 +1,20 @@
+{
+  "status": "SUCCESS",
+  "message": "Loaded all articles",
+  "data": [
+    {
+      "id": 2,
+      "title": "Brian Ruff",
+      "body": "I am very badass, I made an api in dev mode using Rails in like 2 mintues :)",
+      "created_at": "2018-12-31T18:19:05.317Z",
+      "updated_at": "2018-12-31T18:19:05.317Z"
+    },
+    {
+      "id": 1,
+      "title": "Brian",
+      "body": "is a boss",
+      "created_at": "2018-12-31T18:18:36.673Z",
+      "updated_at": "2018-12-31T18:18:36.673Z"
+    }
+  ]
+}

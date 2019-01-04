@@ -1,0 +1,82 @@
+POST https://rails-article-api.herokuapp.com/api/v1/articles?=&title=Rails 5 - Brad Travesy&body=Made this api really easy to make and understand.
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST https://rails-article-api.herokuapp.com/api/v1/articles
+Accept: */*
+Cache-Control: no-cache
+
+{"title": "Rails made this process easy, also thanks, Brad Traversy", "body: "this should be longer"}
+
+###
+
+POST https://rails-article-api.herokuapp.com/api/v1/articles
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET https://rails-article-api.herokuapp.com/api/v1/articles
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-01-02T095300.200.json
+
+###
+
+GET http://localhost:3000/api/v1/articles
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3000/api/v1/articles
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3000/api/v1/articles
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3000/api/v1/articles
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3000/api/v1/articles
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3000/api/v1/articles
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3000/api/v1/articles
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3000/api/v1/articles
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:3000/api/v1/articles
+Accept: */*
+Cache-Control: no-cache
+
+###
+
