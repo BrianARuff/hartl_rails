@@ -1,0 +1,9 @@
+es:
+  hello: "Hola Mundo"
+  helpers:
+    label:
+      user:
+        name: "Tu nombre"
+        email: "Tu correo electrónico"
+        password: "Tu contraseña"
+        password_confirm: "Confirmar la contraseña"
