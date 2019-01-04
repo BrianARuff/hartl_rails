@@ -32,6 +32,10 @@ gem 'bcrypt', '~> 3.1.7'
 
 gem 'bootstrap-sass', '~> 3.4'
 
+# time processes out after set amount of time via heroku and rack-timeout
+gem "rack-timeout", require:"rack/timeout/base"
+
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
